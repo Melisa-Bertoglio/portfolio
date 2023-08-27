@@ -1,0 +1,77 @@
+@keyframes introup {
+  from {
+    opacity: 0;
+    position: relative;
+    bottom: -50px;
+  }
+  to {
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+#home-section {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  animation: introup 2s;
+  position: relative;
+}
+
+p {
+  width: 50%;
+  font-size: 18px;
+}
+p strong {
+  font-size: 30px;
+}
+p span {
+  color: rgb(255, 153, 0);
+}
+
+* {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(31, 31, 31);
+  height: 30vh;
+  color: rgb(222, 220, 220);
+  text-align: center;
+  padding-top: 80px;
+}
+header h1 {
+  color: rgb(255, 153, 0);
+  font-size: 45px;
+}
+header h2 {
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+main {
+  background-color: rgb(222, 220, 220);
+  height: 70vh;
+  padding: 0px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 999px;
+}
+
+button {
+  width: 120px;
+  font-size: 15px;
+  color: rgb(255, 153, 0);
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 10px;
+  border: solid 1px rgb(255, 153, 0);
+}/*# sourceMappingURL=styles.css.map */

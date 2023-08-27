@@ -1,0 +1,56 @@
+@import "./variables";
+@import "./animation";
+@import "./home";
+
+
+
+
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: $color-negro;
+    height: 30vh;
+    color: $color-blanco;
+    text-align: center;
+    padding-top: 80px;
+    h1{
+        color: $color-primario;
+        font-size: $fuente-grande;
+}
+    h2{
+        font-weight: lighter;
+        font-size: $fuente-mediana;
+    }
+}
+
+main{
+    background-color: $color-blanco;
+    height: 70vh;
+    padding: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 999px;
+}
+button{
+    width: 120px;
+    font-size: 15px;
+    color: $color-primario;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px;
+    border: solid 1px $color-primario;
+
+}
